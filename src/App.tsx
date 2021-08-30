@@ -1,12 +1,9 @@
+import 'react-native-gesture-handler';
 import React from 'react';
-import {Text, View} from 'react-native';
+import RootNavigationContainer from './navigation';
 
 const App = () => {
-  return (
-    <View>
-      <Text>My Resume</Text>
-    </View>
-  );
+  return <RootNavigationContainer />;
 };
 
 export default App;
