@@ -14,12 +14,13 @@ export enum FontSizes {
   header2 = 60,
 }
 
-export enum FontWeights {}
-// bold = 'Comfortaa-Bold',
-// light = 'Comfortaa-Light',
-// medium = 'Comfortaa-Medium',
-// regular = 'Comfortaa-Regular',
-// semibold = 'Comfortaa-Semibold',
+// export enum FontWeights {
+//   bold = 'Comfortaa-Bold',
+//   light = 'Comfortaa-Light',
+//   medium = 'Comfortaa-Medium',
+//   regular = 'Comfortaa-Regular',
+//   semibold = 'Comfortaa-Semibold',
+// }
 
 export enum Margins {
   marginMicro = 4,

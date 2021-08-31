@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text, View } from 'react-native';
+import { Icon } from '../../components';
 import styles from './styles';
 
 const ContactsScreen = () => {

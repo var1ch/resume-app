@@ -3,6 +3,12 @@ import { Text, View } from 'react-native';
 import styles from './styles';
 
 const HomeScreen = () => {
+  async function testFunc() {
+    return 'Result';
+  }
+  testFunc()
+    .then(r => `Another ${r}`)
+    .then(r => console.log(r));
   return (
     <View style={styles.container}>
       <View style={styles.header}>
