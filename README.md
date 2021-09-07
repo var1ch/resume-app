@@ -1,1 +1,1 @@
-# My Resume App.
+# My Resume App built with React Native.
